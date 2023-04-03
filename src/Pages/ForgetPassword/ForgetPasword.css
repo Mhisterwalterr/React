@@ -1,0 +1,85 @@
+.forgetPasswordContainer{
+    display: flex;
+
+    padding: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.forgetPasswordContainer .wrapper{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    /* max-width: 30%; */
+    padding: 6rem 2.25rem  6rem  2.25rem;
+    border-radius: 5px;
+    gap: 1rem;
+    
+}
+
+.forgetPasswordContainer .logoWrapper svg{
+    font-size: 1.5rem;
+}
+
+.forgetPasswordContainer .input3{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    padding-top: 1rem;
+}
+
+
+    
+    .forgetPasswordContainer .input3 input{
+        
+        width: 100%;
+        border: none;
+        /* height: 30px; */
+        background: transparent;
+        border-bottom: 1px solid black;
+        /* margin-left: 3em; */
+        outline: none;
+        padding: 1rem 1rem 1rem 0rem;
+        /* margin-bottom: 2rem; */
+        
+        
+    }
+    .forgetPasswordContainer .butt{
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .forgetPasswordContainer .submitButton{
+        padding: 1rem 2rem;
+        width: 100%;
+        font-size: 1.125rem;
+        font-weight: bold;
+        border-radius: 30px;
+        outline: none;
+    }
+    
+    .forgetPasswordContainer .submitButton:hover{
+        background-color: orange;
+        color: #141414;
+    }
+
+    @media all and (min-width:768px) {
+        .forgetPasswordContainer .wrapper{
+            width: 60%;
+        }
+    }
+    
+    @media all and (min-width:992px) {
+        .forgetPasswordContainer .wrapper{
+            width: 40%;
+        }
+    }
+    @media all and (min-width:1200px) {
+        .forgetPasswordContainer .wrapper{
+            width: 20%;
+        }
+    }

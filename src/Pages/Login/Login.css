@@ -1,0 +1,75 @@
+.loginContainer{
+    display: flex;
+
+    padding: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer .mainn{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    /* max-width: 80%; */
+    padding: 1rem 2.25rem;
+    border-radius: 5px;
+}
+
+.loginContainer .logo2{
+        font-size: 20px;
+        padding-top: 30px;
+    
+}
+
+.loginContainer .log1{
+    padding-bottom: 2.25rem;
+}
+
+.textColor p{
+    color: red;
+    text-align: center;
+}
+
+.loginContainer .input{
+    /* margin-top: 1rem; */
+    /* margin-bottom: none; */
+    display: flex;
+    flex-direction: column;
+}
+
+.loginContainer .input input{
+    width: 100%;
+    border: none;
+    /* height: 30px; */
+    background: transparent;
+    border-bottom: 1px solid black;
+    /* margin-left: 3em; */
+    outline: none;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.loginContainer .textColor{
+    color: rgb(88, 7, 7);
+    text-decoration: solid;
+}
+
+.loginContainer .button2{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.loginContainer .button2 button{
+    padding: 1rem 2rem;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 30px;
+    outline: none;
+}
+
+.signUp{
+    text-align: center;
+}
